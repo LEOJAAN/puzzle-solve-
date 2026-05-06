@@ -1,8 +1,8 @@
 import { useSendTransaction, useAccount } from 'wagmi'
 import { parseEther } from 'viem'
 
-// Encoded Builder String provided by requirements. Invalid 'v' at the end removed.
-const BUILDER_STRING = "0x62635f736a6b657870326f0b0080218021802180218021802180218021"
+// Encoded Builder String for code: bc_md0xlpyq
+const BUILDER_STRING = "0x62635f6d6430786c7079710b0080218021802180218021802180218021"
 
 export function useBaseTransaction() {
   const { address } = useAccount()
